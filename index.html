@@ -1,11 +1,35 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>My First HTML Page</title>
+    <title>Superhero Says Hello</title>
+    <style>
+        body {
+            background-color: #f0f0f0;
+            text-align: center;
+            margin-top: 50px;
+        }
+        .container {
+            position: relative;
+            display: inline-block;
+        }
+        .hello-text {
+            position: absolute;
+            bottom: 100px; /* adjust to move the text */
+            right: 120px; /* adjust to move near the hand */
+            font-size: 32px;
+            font-weight: bold;
+            color: #ff0000;
+            text-shadow: 2px 2px 5px black;
+        }
+        img {
+            width: 400px; /* resize as needed */
+        }
+    </style>
 </head>
 <body>
-    <h1>HELLO EVERYONE, THIS IS VEERU</h1>
-<h1>This is my sample PROJECT</h1>
-
+    <div class="container">
+        <img src="spiderman_hi_by_kanzencm-d95lj3m.png" alt="Superhero Image">
+        <div class="hello-text">HELLO 👋</div>
+    </div>
 </body>
 </html>
